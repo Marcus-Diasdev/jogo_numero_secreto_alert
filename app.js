@@ -45,7 +45,7 @@ else {
     if (tentativa > 5) {
         alert(`Você perdeu :(  O número secreto era ${numeroSecreto}`);
     }
-    if (tentativa > 4) {
+    if (tentativa > 4 && tentativa < 5) {
         alert('Essa é a sua última chance, escolha com cuidado!')
     }
 }}
@@ -63,5 +63,6 @@ function jogarNovamente() {
         jogarNovamente();
     }
 }
+
 
 jogarNovamente();
