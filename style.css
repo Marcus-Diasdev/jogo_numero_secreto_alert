@@ -88,7 +88,7 @@ h2 {
 }
 
 footer {
-      color: black;
+      color: whitesmoke;
       width: 100%;
       position: fixed;
       font-size: 1rem;
@@ -98,7 +98,7 @@ footer {
   }
   
   footer a {
-      color: black; 
+      color: whitesmoke; 
       padding: 0%; 
       width: 100%;
       text-decoration: none;
